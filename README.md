@@ -8,7 +8,7 @@ This repository contains the source code for **Task 2: Web App Deployment to Azu
 3. Task 2.3 (Distinction Level) - Abstracted connection strings, runtime keys and ennvironment settings out of the source code and configured them in App Service environment variables. Also added an active health check point and Azure App Service Logging.
 4. Task 2.4 (High Distinction Level)- Created a new web ap in PHP and published on Azure App Service using VS Code. Also integrated Application Insights for all the hosted apps.
 
-## Publicly Accessible URLS to all the Tasks.
+## Publicly Accessible URL'S to all the Tasks.
 - **Task 2.1**: https://task2-1-104795326-bdg5a3gpfdbccjf5.newzealandnorth-01.azurewebsites.net/
 - **Task 2.2 & 2.3**: https://task-2-2custom-104795326-e7efewawdwe9eybr.newzealandnorth-01.azurewebsites.net/
 - **Task 2.3 Health Check**: https://task-2-2custom-104795326-e7efewawdwe9eybr.newzealandnorth-01.azurewebsites.net/health
