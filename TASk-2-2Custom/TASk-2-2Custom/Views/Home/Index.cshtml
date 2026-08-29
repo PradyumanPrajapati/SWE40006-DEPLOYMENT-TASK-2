@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["WelcomeMessage"]</h1>
+    <p class="lead">This is Task 2.3 (Distinction Level) for Deployment Task 2</p>
+    <hr />
+    <p>SWE40006 - Software Deployment and Evolution</p>
+    <p>Student ID: 104795326</p>
+    <p>Aimed Target Level: High Distinction</p>
+
+    <hr />
+    <h4>Runtime Configuration</h4>
+    <table class="table table-bordered w-50 mx-auto">
+        <tbody>
+            <tr>
+                <th scope="row">Deployment Environment</th>
+                <td>@ViewData["DeploymentEnvironment"]</td>
+            </tr>
+            <tr>
+                <th scope="row">Region</th>
+                <td>@ViewData["Region"]</td>
+            </tr>
+            <tr>
+                <th scope="row">API Key Status</th>
+                <td>@ViewData["ApiKeyStatus"]</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="text-muted">Server time (UTC): @DateTime.UtcNow.ToString("dd MMM yyyy HH:mm:ss")</p>
+</div>
